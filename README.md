@@ -1,12 +1,24 @@
-## Welcome to GitHub Pages
+## Temporal Variations of Auto Jobs-Accessibility by Time of Day in San Francisco
 
-Test Test
+### Research Question 
 
-You can use the [editor on GitHub](https://github.com/matthui1/access_variability/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+**How does auto jobs-accessibility vary by time of day?**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Access to jobs reflects the amount of job opportunities that can be reach from a certain location; it is an important measure of transporation accessibility.
 
-### Markdown
+
+### Data and Methodology 
+- Uber Movement Data 
+- Census and MTC Job Projections 
+- Various types of accessibility metrics 
+
+
+### Findings 
+
+### Key Conclusions  
+
+### References 
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
