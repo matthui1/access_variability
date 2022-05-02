@@ -1,17 +1,21 @@
 ## Temporal Variations of Auto Jobs-Accessibility by Time of Day in San Francisco
 
-### Research Question 
+### Research Questions 
 
 **How does auto jobs-accessibility vary by time of day?**
 
 Access to jobs reflects the amount of job opportunities that can be reach from a certain location; it is an important measure of transporation accessibility.
 
+**Are there opportunities to use big data to measure jobs-accessibility?** 
+- Uber Movement Data 
 
 ### Data and Methodology 
+- Various types of accessibility metrics 
 - Uber Movement Data 
 - Census and MTC Job Projections 
-- Various types of accessibility metrics 
+- What should I measure?  
 
+### Data Quality and Limitations 
 
 ### Findings 
 
