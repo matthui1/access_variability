@@ -34,6 +34,9 @@ How does auto jobs-accessibility vary by time of day in San Francisco?
 - Census and MTC Job Projections 
 - What should I measure?  
 
+<img src="sf_var.png" class="img-responsive" alt=""> </div>
+
+
 ### Data Quality and Limitations 
 
 ### Findings 
