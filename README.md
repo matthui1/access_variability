@@ -1,6 +1,8 @@
-## Temporal Variations of Auto Jobs-Accessibility by Time of Day in San Francisco
+# Temporal Variations of Auto Jobs-Accessibility by Time of Day in San Francisco
+
 
 ### Research Questions 
+
 
 **How does auto jobs-accessibility vary by time of day?**
 
@@ -34,7 +36,7 @@ How does auto jobs-accessibility vary by time of day in San Francisco?
 
 There are a variety of metrics for accessibility. The most commonly used metrics are derived from either the cumulative model, gravity model, or utility-based model (1). Of the three types of models, the cumulative model was selected for this analysis because of its ease of use and interpretability. Specifically, I used a simple cumulative accessibility model that measures the aggregate number of jobs that can be accessed within a certain travel time. The accessibility metric is: 
 
-•	For each hour, the number of jobs accessible by car within x minutes, where x is: 15, 30, 45, 60, and 75 minutes 
+- For each hour, the number of jobs accessible by car within x minutes, where x is: 15, 30, 45, 60, and 75 minutes 
 
 The methodology of this analysis is tailored to the Uber Movement Data, which provides travel time between census tracts at an hourly granularity. Uber provides the geography of the zones and explicitly states that they are census tracts. However, Uber does not provide the census tract information in the dataset. Therefore, the Uber Movement data is first mapped to the corresponding census tract using census tract shapefiles from the Census Bureau. 
 
