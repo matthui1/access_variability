@@ -47,8 +47,8 @@ The origins and the destination tracts in the Uber Movement dataset are contextu
 The analysis workflow began by examining the total number of jobs available in the dataset at a county level. This step identifies patterns in data availability. Next, the analysis focused on San Francisco County and examined the variations of jobs-accessibility under different travel time thresholds by hour of day. Lastly, spatial analysis was conducted to examine the coefficient of variation of jobs-accessibility by hour of day at the census tract level for San Francisco County. A coefficient of variation was calculated for each census tract in San Francisco County. The coefficient accounted for the standard deviation of jobs accessibility for each hour of day as a data point and normalized it by the average jobs accessibility for the census tract. The coefficient of variation measures the “volatility” of jobs accessibility from temporal variations at the census tract level. 
 
 ### Exploratory Data Analysis on Uber Movement Data Availability  
-<img src="/images/destinations_by_county.png" class="img-responsive" alt=""> </div>
-<img src="images/jobs_by_county.png" class="img-responsive" alt=""> </div>
+![Average number of destinations by county](/images/destinations_by_county.png)
+![Average number of jobs by county](/images/jobs_by_county.png)
 
 Figure 1 and Figure 2 above show the data availability of the Uber Movement dataset using two different metrics. In Figure 1, the metric used is the average number of destination tracts per origin tract for each Bay Area Counties. If all origin-destination pairs are available in the Uber Movement dataset at all hours of day, the metric should remain constant through the day. The metric is largely stable during the daytime, but dips drastically between 12am and 3am before recovering. The metric also tends to decrease past 6pm. 
 
@@ -59,9 +59,8 @@ Figure 2 shows the average number of auto-accessible jobs (at any distance) per 
 Based on Figure 1 and Figure 2, it is determined that the time period from 7:00am to 9:00pm is a relatively stable timeframe with stable data availability for accessibility analysis. Specifically, data from San Francisco County appears to be the most robust among the Bay Area Counties. Subsequent analyses, therefore, focus on the temporal variations between 7:00am and 9:00pm within San Francisco County.  
 
 ### Findings 
-
-<img src="/images/access_by_time.png" class="img-responsive" alt=""> </div>
-<img src="images/access_by_time_percent.png" class="img-responsive" alt=""> </div>
+![Access by Time](/images/access_by_time.png)
+![Percentage of Access by Time](/images/access_by_time_percent.png)
 
 Figure 3 shows at the aggregate number of auto accessible jobs under different travel time thresholds for census tracts in San Francisco County. Since the top line is limited by data availability, Figure 4 normalizes the thresholds by the top line and shows the percentage of jobs reachable under different travel time thresholds for census tracts in San Francisco County. 
 
@@ -74,9 +73,8 @@ Second, the variability of jobs accessibility is more pronounced for the thresho
 
 **Geographic Distribution (A Tale of Three Cities) **
 
-<img src="/images/sf_max.png" class="img-responsive" alt=""> </div>
-<img src="images/sf_var_nprm.png" class="img-responsive" alt=""> </div>
-
+![Maximum number of jobs accessible by auto within 30 minutes](/images/sf_max.png)
+![Coefficient of variation of auto jobs-accessibility under 30 minutes by time of day](/images/sf_var_nprm.png)
 
 Figure 5 shows the maximum number of jobs accessible by auto within 30 minutes for every census tract in San Francisco County. This represents jobs-accessibility under free-flowing traffic conditions. Figure 6 shows the coefficient of variation of auto jobs-accessibility under 30 minutes by time of day. For each census tract in San Francisco County, the time-of-day variation is normalized by the average number of jobs-accessible under 30 minutes by auto between 7:00am and 9:00pm. 
 
@@ -88,7 +86,7 @@ The eastern portion of the city and census tracts near freeways have a higher nu
 
 **Household Median Income and the Coefficient of Variation in Auto Jobs-Accessibility  **
 
-<img src="/images/cov_income.png" class="img-responsive" alt=""> </div>
+![Coefficient of variation in job accessibility under 30 minutes and the household median income](/images/cov_income.png)
 
 Figure 7 shows a plot of the coefficient of variation in job accessibility under 30 minutes and the household median income for all census tracts in San Francisco County. The plot shows a negative trend between the two variables. Census tracts with higher household median income tend to have lower variability in job access, and census tracts with lower household median income tend to have higher variability in job access. This correlation suggests that wealthier neighborhoods benefit from more stability in jobs-access throughout the day. The significance and implications of this finding remain to be further investigated. 
 
