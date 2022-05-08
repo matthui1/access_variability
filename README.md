@@ -113,33 +113,15 @@ Accessibility matters not only for jobs. Future research can shed light on other
 
 ### References 
 
+- Cervero, Robert. "Tracking Accessibility" Access. Fall 1997. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- LaMondia, Jeffrey J., Blackmar, Carey E., Bhat, Chandra R."Comparing Transit Accessibility Measures: As Case Study of Access to Healthcare Facilities" University of Texas. August 1, 2010. 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Data Sources 
 
-- Bulleted
-- List
+- Data retrieved from Uber Movement, (c) 2022 Uber Technologies, Inc., https://movement.uber.com. 
 
-1. Numbered
-2. List
+- U.S. Census Bureau 
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/matthui1/access_variability/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- Metropolitan Transportation Commission 
