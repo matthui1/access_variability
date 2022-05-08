@@ -74,7 +74,7 @@ Second, the variability of jobs accessibility is more pronounced for the thresho
 **Geographic Distribution (A Tale of Three Cities) **
 
 ![Maximum number of jobs accessible by auto within 30 minutes](/images/sf_max.png)
-![Coefficient of variation of auto jobs-accessibility under 30 minutes by time of day](/images/sf_var_nprm.png)
+![Coefficient of variation of auto jobs-accessibility under 30 minutes by time of day](/images/sf_var_norm.png)
 
 Figure 5 shows the maximum number of jobs accessible by auto within 30 minutes for every census tract in San Francisco County. This represents jobs-accessibility under free-flowing traffic conditions. Figure 6 shows the coefficient of variation of auto jobs-accessibility under 30 minutes by time of day. For each census tract in San Francisco County, the time-of-day variation is normalized by the average number of jobs-accessible under 30 minutes by auto between 7:00am and 9:00pm. 
 
